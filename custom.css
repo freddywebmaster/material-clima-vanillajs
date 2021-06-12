@@ -1,0 +1,98 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(/images/back.jpg);
+}
+
+.container {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(/images/back.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  min-width: 100%;
+}
+.card {
+  max-width: 800px;
+  margin: 4rem auto;
+}
+.tomato {
+  color: tomato !important;
+}
+
+.input-field input[type="text"]:focus + label {
+  color: tomato !important;
+}
+
+.input-field input[type="text"]:focus {
+  border-bottom: 1px solid tomato !important;
+  box-shadow: 0 0 0 0 tomato !important;
+}
+.input-field li span {
+  color: tomato !important;
+}
+/* valid color */
+.input-field input[type="text"].valid {
+  border-bottom: 1px solid tomato !important;
+  box-shadow: 0 0 0 0 tomato !important;
+}
+#resultado {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#resultado h5 {
+  text-align: center;
+  font-weight: 500;
+}
+#resultado h5 i {
+  color: orange;
+  position: relative;
+  top: 0.5rem;
+}
+.derechos a {
+  color: tomato;
+}
+.derechos a:hover {
+  text-decoration: underline;
+}
+.submit {
+  color: white !important;
+}
+.title-clima {
+  font-weight: bold;
+  font-size: 2rem;
+  color: tomato;
+}
+.grados {
+  font-weight: 700;
+  font-size: 3rem;
+}
+.minmax {
+  display: inline;
+  margin-left: 1.3rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.input-field input[type="submit"] {
+  color: white;
+}
+.bg-red-100 {
+  background: rgb(255, 62, 62);
+  color: aliceblue;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  margin: 0 0.5rem;
+  position: absolute;
+  border: 2px solid white;
+  top: 2rem;
+  right: 1rem;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .card {
+    margin: 5rem 1rem;
+  }
+}

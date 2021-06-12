@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <!-- Custom css -->
+    <link rel="stylesheet" href="custom.css">
+    <title>Clima App</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="/" class="brand-logo left">Weather<i class="material-icons right">cloud_queue</i></a>
+                <ul id="nav-mobile" class="right">
+                    <li>
+                        <a class="waves-effect waves-light modal-trigger" href="#modal2"><i
+                                class="material-icons">brightness_4</i></a>
+                    </li>
+                    <li>
+                        <a class="waves-effect waves-light modal-trigger" href="#modal3"><i class="material-icons">info_outline</i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="card">
+            <form id="formulario" action="#" method="POST">
+                <div class="row">
+                    <div id="resultado" class="input-field col s12">
+                        <h5 class="flow-text">Agrega tu ciudad y país, el resultado se mostrará aquí <i class="material-icons">wb_sunny</i></h5>
+                    </div>
+                    <div class="input-field col s12">
+                        <input name="ciudad"
+                        id="last_name" type="text" class="validate">
+                        <label class="" for="last_name">Ciudad <i class="material-icons tiny">location_city</i></label>
+                    </div>
+                    <div class="input-field col s12">
+                        <select id="pais">
+                            <option value="" disabled selected>Elige Tu Pais </option>
+                            <option value="AR">Argentina</option>
+                            <option value="CO">Colombia</option>
+                            <option value="CR">Costa Rica</option>
+                            <option value="ES">España</option>
+                            <option value="US">Estados Unidos</option>
+                            <option value="MX">México</option>
+                            <option value="GT">Guatemala</option>
+                        </select>
+                        <label>Pais<i class="material-icons tiny">flag</i></label>
+                    </div>
+                    <div class="input-field col s12">
+                        <input
+                            type="submit"
+                            class="submit waves-effect waves-light btn red lighten-1"
+                            value="Obtener Clima"
+                        />
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!-- VENTANAS MODALES-->
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <h4>Modo Dark</h4>
+            <p>Desea Aplicar el modo oscuro?</b> </p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close btn red lighten-1">Proximamente</a>
+        </div>
+    </div>
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <h4>Acerca de</h4>
+            <p>Este proyecto fue construido con:</b> </p>
+            <p><b>Diseño:</b> Materialize CSS</p>
+            <p><b>Funcionalidad:</b> Vanilla Javascript</p>
+            <p><b>API:</b> Open Weather</p>
+            <div class="derechos">
+                <p><b>Derechos reservados &copy;</b><a href="#!">Freddy Gutierrez</a></p>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close btn red lighten-1">Entendido</a>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
