@@ -1,0 +1,22 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(/images/back2.jpg);
+  }
+  
+  .container {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(/images/back2.jpg);
+  }
+  .input-field input[type="text"],
+  .input-field label {
+    color: rgb(252, 252, 252);
+  }
+  .card,
+  .modal-content{
+    background: #212121;
+    color: aliceblue;
+  }
+  nav,
+  .modal-footer{
+    background: rgb(34, 34, 34)!important;
+  }

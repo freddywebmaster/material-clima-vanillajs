@@ -1,4 +1,4 @@
-const container = document.querySelector(".container");
+const container = document.querySelector("#container");
 const resultado = document.querySelector("#resultado");
 const formulario = document.querySelector("#formulario");
 
@@ -105,8 +105,30 @@ const Spinner = () => {
   divSpinner.classList.add("spinner");
   divSpinner.innerHTML = `
   <div class="progress">
-  <div class="indeterminate"></div>
+    <div class="indeterminate"></div>
   </div>
   `;
   resultado.appendChild(divSpinner);
 };
+
+//dark-theme
+var oscuro = false;
+const ActivarDark = () =>{
+  pantallaBlack();
+  let head = document.querySelector('head');
+  let theme = document.querySelector('#theme-dark');
+  if(!oscuro){
+    head.innerHTML += '<link id="theme-dark" rel="stylesheet" href="dark-theme.css">';
+    oscuro = true;
+  }else{
+    theme.remove();
+    oscuro = false;
+  }
+}
+const pantallaBlack = () =>{
+  let pantalla = document.querySelector('#concar');
+  pantalla.classList.toggle('concar');
+  setTimeout(() =>{
+    pantalla.classList.remove('concar');
+  },1500)
+}

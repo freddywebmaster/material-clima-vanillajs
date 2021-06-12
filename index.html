@@ -14,13 +14,26 @@
 </head>
 
 <body>
-    <div class="container">
+    <div id="concar" class="container">
+        <div class="preloader-wrapper active">
+            <div class="spinner-layer spinner-red-only">
+              <div class="circle-clipper left">
+                <div class="circle"></div>
+              </div><div class="gap-patch">
+                <div class="circle"></div>
+              </div><div class="circle-clipper right">
+                <div class="circle"></div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div id="container" class="container">
         <nav>
             <div class="nav-wrapper">
                 <a href="/" class="brand-logo left">Weather<i class="material-icons right">cloud_queue</i></a>
                 <ul id="nav-mobile" class="right">
                     <li>
-                        <a class="waves-effect waves-light modal-trigger" href="#modal2"><i
+                        <a class="waves-effect waves-light" onclick="ActivarDark();"><i
                                 class="material-icons">brightness_4</i></a>
                     </li>
                     <li>
@@ -30,7 +43,7 @@
             </div>
         </nav>
         <div class="card">
-            <form id="formulario" action="#" method="POST">
+            <form autocomplete="off" id="formulario" action="#" method="POST">
                 <div class="row">
                     <div id="resultado" class="input-field col s12">
                         <h5 class="flow-text">Agrega tu ciudad y país, el resultado se mostrará aquí <i class="material-icons">wb_sunny</i></h5>
@@ -66,17 +79,7 @@
     </div>
 
 
-
     <!-- VENTANAS MODALES-->
-    <div id="modal2" class="modal">
-        <div class="modal-content">
-            <h4>Modo Dark</h4>
-            <p>Desea Aplicar el modo oscuro?</b> </p>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-close btn red lighten-1">Proximamente</a>
-        </div>
-    </div>
     <div id="modal3" class="modal">
         <div class="modal-content">
             <h4>Acerca de</h4>

@@ -90,7 +90,26 @@ body {
   right: 1rem;
   z-index: 1;
 }
+.brand-logo{
+  font-weight: 600;
 
+}
+.concar{
+  position: absolute!important;
+  background: #212121!important;
+  z-index: 15;
+  height: 110vh;
+  display:initial!important;
+}
+#concar{
+  display: none;
+}
+#concar .preloader-wrapper{
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 @media (max-width: 768px) {
   .card {
     margin: 5rem 1rem;

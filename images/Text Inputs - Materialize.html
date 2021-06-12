@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://materializecss.com/text-inputs.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="description" content="Materialize is a modern responsive CSS framework based on Material Design by Google. ">
+    <title>Text Inputs - Materialize</title>
+    <!-- Favicons-->
+    <link rel="apple-touch-icon-precomposed" href="https://materializecss.com/images/favicon/apple-touch-icon-152x152.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
+    <link rel="icon" href="https://materializecss.com/images/favicon/favicon-32x32.png" sizes="32x32">
+    <!--  Android 5 Chrome Color-->
+    <meta name="theme-color" content="#EE6E73">
+    <!-- CSS-->
+    <link href="./Text Inputs - Materialize_files/prism.css" rel="stylesheet">
+    <link href="./Text Inputs - Materialize_files/ghpages-materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="./Text Inputs - Materialize_files/css" rel="stylesheet" type="text/css">
+    <link href="./Text Inputs - Materialize_files/icon" rel="stylesheet">
+    <!-- if !isDemo-->
+    <!--   script.-->
+    <!--     window.liveSettings = {-->
+    <!--       api_key: "a0b49b34b93844c38eaee15690d86413",-->
+    <!--       picker: "bottom-right",-->
+    <!--       detectlang: true,-->
+    <!--       dynamic: true,-->
+    <!--       autocollect: true-->
+    <!--     };-->
+    <!--   script(src='//cdn.transifex.com/live.js')-->
+  <script id="_carbonads_projs" type="text/javascript" src="./Text Inputs - Materialize_files/CKYIK27J.json"></script><script charset="utf-8" src="./Text Inputs - Materialize_files/button.5573c974dc31bbdab5ea7923a0bd5cf3.js.descarga"></script></head>
+  <body>
+    <header>
+      <nav class="top-nav">
+        <div class="container">
+          <div class="nav-wrapper">
+            <div class="row">
+              <div class="col s12 m10 offset-m1">
+                <h1 class="header">Text Inputs</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container"><a href="https://materializecss.com/text-inputs.html#" data-target="nav-mobile" class="top-nav sidenav-trigger full hide-on-large-only"><i class="material-icons">menu</i></a></div>
+      <ul id="nav-mobile" class="sidenav sidenav-fixed" style="transform: translateX(0px);">
+        <li class="logo"><a id="logo-container" href="https://materializecss.com/" class="brand-logo">
+            <object id="front-page-logo" type="image/svg+xml" data="./Text Inputs - Materialize_files/materialize.svg">Your browser does not support SVG</object></a></li>
+        <li class="version"><a href="https://materializecss.com/text-inputs.html#" data-target="version-dropdown" class="dropdown-trigger">
+            1.0.0
+            <svg class="caret" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></a><ul id="version-dropdown" class="dropdown-content" tabindex="0">
+            <li tabindex="0"><a>1.0.0</a></li>
+            <li tabindex="0"><a href="http://archives.materializecss.com/0.100.2/">0.100.2</a></li>
+          </ul>
+          
+        </li>
+        <li class="search">
+          <div class="search-wrapper">
+            <input id="search" placeholder="Search"><i class="material-icons">search</i>
+            <div class="search-results"></div>
+          </div>
+        </li>
+        <li class="bold"><a href="https://materializecss.com/about.html" class="waves-effect waves-teal">About</a></li>
+        <li class="bold"><a href="https://materializecss.com/getting-started.html" class="waves-effect waves-teal">Getting Started</a></li>
+        <li class="no-padding">
+          <ul class="collapsible collapsible-accordion">
+            <li class="bold"><a class="collapsible-header waves-effect waves-teal" tabindex="0">CSS</a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="https://materializecss.com/color.html">Color</a></li>
+                  <li><a href="https://materializecss.com/grid.html">Grid</a></li>
+                  <li><a href="https://materializecss.com/helpers.html">Helpers</a></li>
+                  <li><a href="https://materializecss.com/media-css.html">Media</a></li>
+                  <li><a href="https://materializecss.com/pulse.html">Pulse</a></li>
+                  <li><a href="https://materializecss.com/sass.html">Sass</a></li>
+                  <li><a href="https://materializecss.com/shadow.html">Shadow</a></li>
+                  <li><a href="https://materializecss.com/table.html">Table</a></li>
+                  <li><a href="https://materializecss.com/css-transitions.html">Transitions</a></li>
+                  <li><a href="https://materializecss.com/typography.html">Typography</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="bold"><a class="collapsible-header waves-effect waves-teal" tabindex="0">Components</a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="https://materializecss.com/badges.html">Badges</a></li>
+                  <li><a href="https://materializecss.com/buttons.html">Buttons</a></li>
+                  <li><a href="https://materializecss.com/breadcrumbs.html">Breadcrumbs</a></li>
+                  <li><a href="https://materializecss.com/cards.html">Cards</a></li>
+                  <li><a href="https://materializecss.com/collections.html">Collections</a></li>
+                  <li><a href="https://materializecss.com/floating-action-button.html">Floating Action Button</a></li>
+                  <li><a href="https://materializecss.com/footer.html">Footer</a></li>
+                  <li><a href="https://materializecss.com/icons.html">Icons</a></li>
+                  <li><a href="https://materializecss.com/navbar.html">Navbar</a></li>
+                  <li><a href="https://materializecss.com/pagination.html">Pagination</a></li>
+                  <li><a href="https://materializecss.com/preloader.html">Preloader</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="bold"><a class="collapsible-header waves-effect waves-teal" tabindex="0">JavaScript</a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="https://materializecss.com/auto-init.html">Auto Init</a></li>
+                  <li><a href="https://materializecss.com/carousel.html">Carousel</a></li>
+                  <li><a href="https://materializecss.com/collapsible.html">Collapsible</a></li>
+                  <li><a href="https://materializecss.com/dropdown.html">Dropdown</a></li>
+                  <li><a href="https://materializecss.com/feature-discovery.html">FeatureDiscovery</a></li>
+                  <li><a href="https://materializecss.com/media.html">Media</a></li>
+                  <li><a href="https://materializecss.com/modals.html">Modals</a></li>
+                  <li><a href="https://materializecss.com/parallax.html">Parallax</a></li>
+                  <li><a href="https://materializecss.com/pushpin.html">Pushpin</a></li>
+                  <li><a href="https://materializecss.com/scrollspy.html">Scrollspy</a></li>
+                  <li><a href="https://materializecss.com/sidenav.html">Sidenav</a></li>
+                  <li><a href="https://materializecss.com/tabs.html">Tabs</a></li>
+                  <li><a href="https://materializecss.com/toasts.html">Toasts</a></li>
+                  <li><a href="https://materializecss.com/tooltips.html">Tooltips</a></li>
+                  <li><a href="https://materializecss.com/waves.html">Waves</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="bold active"><a class="collapsible-header waves-effect waves-teal" tabindex="0">Forms</a>
+              <div class="collapsible-body" style="display: block;">
+                <ul>
+                  <li><a href="https://materializecss.com/autocomplete.html">Autocomplete</a></li>
+                  <li><a href="https://materializecss.com/checkboxes.html">Checkboxes</a></li>
+                  <li><a href="https://materializecss.com/chips.html">Chips</a></li>
+                  <li><a href="https://materializecss.com/pickers.html">Pickers</a></li>
+                  <li><a href="https://materializecss.com/radio-buttons.html">Radio Buttons</a></li>
+                  <li><a href="https://materializecss.com/range.html">Range</a></li>
+                  <li><a href="https://materializecss.com/select.html">Select</a></li>
+                  <li><a href="https://materializecss.com/switches.html">Switches</a></li>
+                  <li class="active"><a href="https://materializecss.com/text-inputs.html">Text Inputs</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li class="bold"><a href="https://materializecss.com/mobile.html" class="waves-effect waves-teal">Mobile</a></li>
+        <li class="bold"><a href="https://materializecss.com/showcase.html" class="waves-effect waves-teal">Showcase</a></li>
+        <li class="bold"><a href="https://materializecss.com/themes.html" class="waves-effect waves-teal">Themes</a></li>
+      </ul>
+    </header>
+    <main><div class="container">
+  <div class="row">
+
+    <div class="col s12 m8 offset-m1 xl7 offset-xl1">
+
+      <div id="input" class="section scrollspy">
+        <p class="caption">
+          Forms are the standard way to receive user inputted data. The transitions and smoothness of these elements are very important because of the inherent user interaction associated with forms.
+        </p>
+
+        <h3 class="header">Input fields</h3>
+        <p>Text fields allow user input. The border should light up simply and clearly indicating which field the user is currently editing. You must have a <code class=" language-markup">.input-field</code> div wrapping your input and label. This is only used in our Input and Textarea form elements.</p>
+        <p>The validate class leverages HTML5 validation and will add a <code class=" language-markup">valid</code> and <code class=" language-markup">invalid</code> class accordingly. If you don't want the Green and Red validation states, just remove the <code class=" language-markup">validate</code> class from your inputs.</p>
+        <br>
+          <form>
+            <div class="row">
+              <div class="input-field col s6">
+                <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                <label for="first_name" class="active">First Name</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="last_name" type="text">
+                <label for="last_name">Last Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input disabled="" value="I am not editable" id="disabled" type="text" class="validate">
+                <label for="disabled" class="active">Disabled</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="password" type="password" class="validate">
+                <label for="password">Password</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+                <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s12">
+                This is an inline input field:
+                <div class="input-field inline">
+                  <input id="email_inline" type="email" class="validate">
+                  <label for="email_inline">Email</label>
+                  <span class="helper-text" data-error="wrong" data-success="right"></span>
+                </div>
+              </div>
+            </div>
+          </form>
+        <pre class=" language-markup"><code class=" language-markup">
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>row<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>col s12<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>row<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>input-field col s6<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Placeholder<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>first_name<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>validate<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>first_name<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>First Name<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>input-field col s6<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>last_name<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>validate<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>last_name<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Last Name<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>row<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>input-field col s12<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">disabled</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>I am not editable<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>disabled<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>validate<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>disabled<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Disabled<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>row<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>input-field col s12<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>password<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>password<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>validate<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>password<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Password<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>row<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>input-field col s12<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>validate<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Email<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>row<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>col s12<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+          This is an inline input field:
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>input-field inline<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>email_inline<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>validate<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>email_inline<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Email<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>helper-text<span class="token punctuation">"</span></span> <span class="token attr-name">data-error</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>wrong<span class="token punctuation">"</span></span> <span class="token attr-name">data-success</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>right<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Helper text<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        </code></pre><br>
+        <h5>Prefilling Text Inputs</h5>
+        <p>If you are having trouble with the labels overlapping prefilled content, Try adding <code class=" language-markup">class="active"</code> to the label. <br>You can also call the function <code class=" language-javascript">M<span class="token punctuation">.</span><span class="token function">updateTextFields</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code> to reinitialize all the Materialize labels on the page if you are dynamically adding inputs.</p>
+        <div class="row">
+          <div class="input-field col s6">
+            <input value="Alvin" id="first_name2" type="text" class="validate">
+            <label class="active" for="first_name2">First Name</label>
+          </div>
+        </div>
+
+        <pre class=" language-markup"><code class=" language-markup">
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>row<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>input-field col s6<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Alvin<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>first_name2<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>validate<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>active<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>first_name2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>First Name<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        </code></pre>
+
+        <pre class=" language-javascript"><code class=" language-javascript">
+  <span class="token function">$</span><span class="token punctuation">(</span>document<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">ready</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    M<span class="token punctuation">.</span><span class="token function">updateTextFields</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        </code></pre>
+        <br>
+
+        <h5>Icon Prefixes</h5>
+        <p>You can add an icon prefix to make the form input label even more clear. Just add an icon with the class <code class=" language-markup">prefix</code> before the input and label.</p><br>
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <i class="material-icons prefix">account_circle</i>
+                <input id="icon_prefix" type="text" class="validate">
+                <label for="icon_prefix">First Name</label>
+              </div>
+              <div class="input-field col s6">
+                <i class="material-icons prefix">phone</i>
+                <input id="icon_telephone" type="tel" class="validate">
+                <label for="icon_telephone">Telephone</label>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <pre class=" language-markup"><code class=" language-markup">
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>row<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>col s12<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>row<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>input-field col s6<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>material-icons prefix<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>account_circle<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>icon_prefix<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>validate<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>icon_prefix<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>First Name<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>input-field col s6<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>material-icons prefix<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>phone<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>icon_telephone<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>tel<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>validate<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>icon_telephone<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Telephone<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        </code></pre>
+        <br>
+
+        <h5>Custom Error or Success Messages</h5>
+        <p>You can add custom validation messages by adding either <code class=" language-markup">data-error</code> or <code class=" language-markup">data-success</code> attributes to your helper text element.</p><br>
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email2" type="email" class="validate">
+                <label for="email2">Email</label>
+                <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <pre class=" language-markup"><code class=" language-markup">
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>row<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>col s12<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>row<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>input-field col s12<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>validate<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Email<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>helper-text<span class="token punctuation">"</span></span> <span class="token attr-name">data-error</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>wrong<span class="token punctuation">"</span></span> <span class="token attr-name">data-success</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>right<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Helper text<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        </code></pre>
+        <br>
+
+        <h5>Changing colors</h5>
+        <p>Here is a CSS template for modifying input fields in CSS. With Sass, you can achieve this by just changing a variable. The CSS shown below is unprefixed. Depending on what you use, you may have to change the type attribute selector.</p>
+        <pre class=" language-css"><code class=" language-css">
+  <span class="token comment" spellcheck="true">/* label color */</span>
+   <span class="token selector">.input-field label </span><span class="token punctuation">{</span>
+     <span class="token property">color</span><span class="token punctuation">:</span> #000<span class="token punctuation">;</span>
+   <span class="token punctuation">}</span>
+   <span class="token comment" spellcheck="true">/* label focus color */</span>
+   <span class="token selector">.input-field input[type=text]:focus + label </span><span class="token punctuation">{</span>
+     <span class="token property">color</span><span class="token punctuation">:</span> #000<span class="token punctuation">;</span>
+   <span class="token punctuation">}</span>
+   <span class="token comment" spellcheck="true">/* label underline focus color */</span>
+   <span class="token selector">.input-field input[type=text]:focus </span><span class="token punctuation">{</span>
+     <span class="token property">border-bottom</span><span class="token punctuation">:</span> 1px solid #000<span class="token punctuation">;</span>
+     <span class="token property">box-shadow</span><span class="token punctuation">:</span> 0 1px 0 0 #000<span class="token punctuation">;</span>
+   <span class="token punctuation">}</span>
+   <span class="token comment" spellcheck="true">/* valid color */</span>
+   <span class="token selector">.input-field input[type=text].valid </span><span class="token punctuation">{</span>
+     <span class="token property">border-bottom</span><span class="token punctuation">:</span> 1px solid #000<span class="token punctuation">;</span>
+     <span class="token property">box-shadow</span><span class="token punctuation">:</span> 0 1px 0 0 #000<span class="token punctuation">;</span>
+   <span class="token punctuation">}</span>
+   <span class="token comment" spellcheck="true">/* invalid color */</span>
+   <span class="token selector">.input-field input[type=text].invalid </span><span class="token punctuation">{</span>
+     <span class="token property">border-bottom</span><span class="token punctuation">:</span> 1px solid #000<span class="token punctuation">;</span>
+     <span class="token property">box-shadow</span><span class="token punctuation">:</span> 0 1px 0 0 #000<span class="token punctuation">;</span>
+   <span class="token punctuation">}</span>
+   <span class="token comment" spellcheck="true">/* icon prefix focus color */</span>
+   <span class="token selector">.input-field .prefix.active </span><span class="token punctuation">{</span>
+     <span class="token property">color</span><span class="token punctuation">:</span> #000<span class="token punctuation">;</span>
+   <span class="token punctuation">}</span>
+        </code></pre>
+      </div>
+
+
+      <!-- Textarea Section -->
+      <div id="textarea" class="section scrollspy">
+        <h3 class="header">Textarea</h3>
+        <p>Textareas allow larger expandable user input. The border should light up simply and clearly indicating which field the user is currently editing. You must have a <code class=" language-markup">.input-field</code> div wrapping your input and label. This is only used in our Input and Textarea form elements.</p>
+        <p><strong>Textareas will auto resize to the text inside.</strong></p>
+
+
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <textarea id="textarea1" class="materialize-textarea" style="height: 45px;"></textarea>
+                <label for="textarea1">Textarea</label>
+              </div>
+            </div>
+          </form>
+        </div>
+        <pre class=" language-markup"><code class=" language-markup">
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>row<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>col s12<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>row<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>input-field col s12<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>textarea</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>textarea1<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>materialize-textarea<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>textarea</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>textarea1<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Textarea<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        </code></pre>
+        <p>advanced note: When dynamically changing the value of a textarea with methods like jQuery's <code class=" language-markup">.val()</code>, you must trigger an autoresize on it afterwords because .val() does not automatically trigger the events we've binded to the textarea. </p>
+        <pre class=" language-javascript"><code class=" language-javascript">
+  <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'#textarea1'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">val</span><span class="token punctuation">(</span><span class="token string">'New Text'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  M<span class="token punctuation">.</span><span class="token function">textareaAutoResize</span><span class="token punctuation">(</span><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'#textarea1'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        </code></pre>
+        <br>
+
+        <h5>Icon Prefixes</h5>
+        <p>You can add an icon prefix to make the form input label even more clear. Just add an icon with the class <code class=" language-markup">prefix</code> before the input and label.</p><br>
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">mode_edit</i>
+                <textarea id="icon_prefix2" class="materialize-textarea" style="height: 45px;"></textarea>
+                <label for="icon_prefix2">Message</label>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <pre class=" language-markup"><code class=" language-markup">
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>row<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>col s12<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>row<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>input-field col s6<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>material-icons prefix<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>mode_edit<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>textarea</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>icon_prefix2<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>materialize-textarea<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>textarea</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>icon_prefix2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>First Name<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        </code></pre>
+      </div>
+
+
+      <div id="file" class="section scrollspy">
+        <h3 class="header">File Input</h3>
+        <p>If you want to style an input button with a path input we provide this structure.</p>
+        <form action="https://materializecss.com/text-inputs.html#">
+          <div class="file-field input-field">
+            <div class="btn">
+              <span>File</span>
+              <input type="file">
+            </div>
+            <div class="file-path-wrapper">
+              <input class="file-path validate" type="text">
+            </div>
+          </div>
+        </form>
+        <pre class=" language-markup"><code class=" language-markup">
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>file-field input-field<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span><span class="token punctuation">&gt;</span></span>File<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>file<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>file-path-wrapper<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>file-path validate<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">&gt;</span></span>
+        </code></pre>
+
+        <p>You can also use the <code class=" language-markup">multiple</code> attribute to allow multiple file uploads. </p>
+        <form action="https://materializecss.com/text-inputs.html#">
+          <div class="file-field input-field">
+            <div class="btn">
+              <span>File</span>
+              <input type="file" multiple="">
+            </div>
+            <div class="file-path-wrapper">
+              <input class="file-path validate" type="text" placeholder="Upload one or more files">
+            </div>
+          </div>
+        </form>
+        <pre class=" language-markup"><code class=" language-markup">
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>file-field input-field<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span><span class="token punctuation">&gt;</span></span>File<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>file<span class="token punctuation">"</span></span> <span class="token attr-name">multiple</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>file-path-wrapper<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>file-path validate<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Upload one or more files<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">&gt;</span></span>
+        </code></pre>
+      </div>
+
+
+      <div id="character-counter" class="section scrollspy">
+        <h3 class="header">Character Counter</h3>
+        <p class="caption">Use a character counter in fields where a character restriction is in place.</p>
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="input_text" type="text" data-length="10">
+                <label for="input_text">Input text</label>
+              <span class="character-counter" style="float: right; font-size: 12px;"></span></div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="input-field col s12">
+                <textarea id="textarea2" class="materialize-textarea" data-length="120" style="height: 45px;"></textarea>
+                <label for="textarea2">Textarea</label>
+              <span class="character-counter" style="float: right; font-size: 12px;"></span></div>
+            </div>
+          </form>
+        </div>
+        <pre class=" language-markup"><code class=" language-markup">
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>row<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>col s12<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>row<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>input-field col s6<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>input_text<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">data-length</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>10<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>input_text<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Input text<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>row<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>input-field col s12<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>textarea</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>textarea2<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>materialize-textarea<span class="token punctuation">"</span></span> <span class="token attr-name">data-length</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>120<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>textarea</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>textarea2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Textarea<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+          </code></pre>
+        <br>
+
+        <h5>Initialization</h5>
+        <p>There are no options for this plugin, but if you are adding these dynamically, you can use this to initialize them.</p>
+        <pre class=" language-javascript"><code class=" language-javascript">
+  <span class="token function">$</span><span class="token punctuation">(</span>document<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">ready</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'input#input_text, textarea#textarea2'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">characterCounter</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        </code></pre>
+      </div>
+
+    </div>
+    <div class="col hide-on-small-only m3 xl3 offset-xl1">
+      <div class="toc-wrapper pinned" style="top: 0px;">
+        <div class="buysellads hide-on-small-only">
+          <!-- CarbonAds Zone Code -->
+          <script async="" src="https://www.google-analytics.com/analytics.js"></script><script id="twitter-wjs" src="./Text Inputs - Materialize_files/widgets.js.descarga"></script><script async="" type="text/javascript" src="./Text Inputs - Materialize_files/carbon.js.descarga" id="_carbonads_js"></script><div id="carbonads"><span><span class="carbon-wrap"><a href="https://srv.carbonads.net/ads/click/x/GTND42JLCKBITKJ7C6ALYKQNCV7IC27ICWBDLZ3JCY7DC23WCWSDC27KC67I5KJECKBD5KJIF6AD4KQ7CTADL27EHEYIKKJICWYITK3ECTNCYBZ52K?segment=placement:materializecss;" class="carbon-img" target="_blank" rel="noopener sponsored"><img src="./Text Inputs - Materialize_files/1622815932-toptal-v2.png" alt="ads via Carbon" border="0" height="100" width="130" style="max-width: 130px;"></a><a href="https://srv.carbonads.net/ads/click/x/GTND42JLCKBITKJ7C6ALYKQNCV7IC27ICWBDLZ3JCY7DC23WCWSDC27KC67I5KJECKBD5KJIF6AD4KQ7CTADL27EHEYIKKJICWYITK3ECTNCYBZ52K?segment=placement:materializecss;" class="carbon-text" target="_blank" rel="noopener sponsored">Get busy earning as top freelance developer. Find out how much you can earn with Toptal.</a></span><a href="http://carbonads.net/?utm_source=materializecss&amp;utm_medium=ad_via_link&amp;utm_campaign=in_unit&amp;utm_term=carbon" class="carbon-poweredby" target="_blank" rel="noopener sponsored">ads via Carbon</a></span></div>
+        </div>
+        <div style="height: 1px;">
+          <ul class="section table-of-contents">
+            <li><a href="https://materializecss.com/text-inputs.html#input" class="active">Input Fields</a></li>
+            <li><a href="https://materializecss.com/text-inputs.html#textarea" class="">Textareas</a></li>
+            <li><a href="https://materializecss.com/text-inputs.html#file">File Input Button</a></li>
+            <li><a href="https://materializecss.com/text-inputs.html#character-counter">Character Counter</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+    </main>    <footer class="page-footer docs-footer">
+      <div class="container">
+        <div class="row" style="margin-bottom: 0;">
+          <div class="col s12 m10 offset-m1">
+            <div class="row">
+              <div class="col l4 s12">
+                <h5>Help Materialize Grow</h5>
+                <p class="grey-text text-darken-2">We hope you have enjoyed using Materialize and if you feel like it has helped you out and want to support the team you can help us by donating or backing us on Patreon. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+                <a class="btn waves-effect waves-light red lighten-2" href="https://materializecss.com/support-us.html">Support Us</a>
+
+              </div>
+              <div class="col l4 s12">
+                <h5>Join the Discussion</h5>
+                <p class="grey-text text-darken-2">We have a Gitter chat room set up where you can talk directly with us. Come in and discuss new features, future goals, general problems or questions, or anything else you can think of.</p>
+                <a class="btn waves-effect waves-light red lighten-2" target="_blank" href="https://gitter.im/Dogfalo/materialize">Chat</a>
+              </div>
+              <div class="col l4 s12" style="overflow: hidden;">
+                <h5>Connect</h5>
+                <iframe src="./Text Inputs - Materialize_files/github-btn.html" allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
+                <br>
+                <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-follow-button twitter-follow-button-rendered" style="position: static; visibility: visible; width: 283px; height: 28px;" title="Twitter Follow Button" src="./Text Inputs - Materialize_files/follow_button.06c6ee58c3810956b7509218508c7b56.en.html" data-screen-name="MaterializeCSS"></iframe>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col s12">
+                <h5>Patreon Sponsors</h5>
+              </div>
+              <div class="col s12">
+                <div class="patreon-footer-ad">
+                  <a href="https://writersperhour.com/" alt="Writers Per Hour" target="_blank" rel="noopener">
+                    <img src="./Text Inputs - Materialize_files/Screen-Shot-2021-06-02-at-10-16-12-AM.png" alt="Writers Per Hour">
+                  </a>
+                </div>
+                <div class="patreon-footer-ad">
+                  <a href="https://pillarwm.com/why-it-matters-ultra-high-net-worth-or-high-net-worth/" alt="Pillarwm" target="_blank" rel="noopener">
+                    <img src="./Text Inputs - Materialize_files/c2fOjEF.png" alt="Pillarwm">
+                  </a>
+                </div>
+                <div class="patreon-footer-ad">
+                  <a href="https://www.coupons4printing.com/" alt="Coupons4Printing" target="_blank" rel="noopener">
+                    <img src="./Text Inputs - Materialize_files/coupons4printing.png" alt="Coupons4Printing">
+                  </a>
+                </div>
+                <div class="patreon-footer-ad">
+                  <a href="https://www.brandnewweb.nl/" target="_blank" rel="noopener">
+                    <img src="./Text Inputs - Materialize_files/brandnewweb.png" alt="Brand New Web">
+                  </a>
+                </div>
+                <div class="patreon-footer-ad">
+                  <a href="https://icons8.com/material-icons" target="_blank" rel="noopener">
+                    <img src="./Text Inputs - Materialize_files/icons8-logo-opencollective.png" alt="Icons8">
+                  </a>
+                </div>
+                <div class="patreon-footer-ad">
+                  <a href="https://typestack.nl/" target="_blank" rel="noopener">
+                    <img src="./Text Inputs - Materialize_files/typestack.png" alt="Open source fully loaded CMS in #2019">
+                  </a>
+                </div>
+                <div class="patreon-footer-ad">
+                  <a href="https://www.onecompare.com/apple" target="_blank" rel="noopener">
+                    <img src="./Text Inputs - Materialize_files/logo-temp.png" alt="Compare the cheapest Apple deals">
+                  </a>
+                </div>
+                <div class="patreon-footer-ad">
+                  <a href="https://www.vpsserver.com/" target="_blank" rel="noopener">
+                    <img src="./Text Inputs - Materialize_files/logo.png" alt="VPS Server">
+                  </a>
+                </div>
+                <div class="patreon-footer-ad">
+                  <a href="https://sumatosoft.com/services/ruby-on-rails-development" alt="SUMATOSOFT" target="_blank" rel="noopener">
+                    <img src="./Text Inputs - Materialize_files/5130672.png" alt="SUMATOSOFT">
+                  </a>
+                </div>
+                <div class="patreon-footer-ad">
+                  <a href="https://kredittkrt.no/" alt="kredittkort" target="_blank" rel="noopener">
+                    <img src="./Text Inputs - Materialize_files/kredittkrt-logo.png" alt="kredittkort">
+                  </a>
+                </div>
+                <div class="patreon-footer-ad">
+                  <a href="https://netqualified.com/" alt="Notification widget for website engagement and conversion" target="_blank" rel="noopener">
+                    <img src="./Text Inputs - Materialize_files/008c4b17d2f7dffb207c95d34ab72eac.png" alt="Notification widget for website engagement and conversion">
+                  </a>
+                </div>
+                <div class="patreon-footer-ad">
+                  <a href="https://monovm.com/" alt="VPS Hosting" target="_blank" rel="noopener">
+                    <img src="./Text Inputs - Materialize_files/monovm-logo.jpg" alt="VPS Hosting">
+                  </a>
+                </div>
+                <div class="patreon-footer-ad">
+                  <a href="https://www.firesticktricks.com/" alt="Fire Stick Tricks" target="_blank" rel="noopener">
+                    <img src="./Text Inputs - Materialize_files/Firesticktricks-black-bg.png" alt="Fire Stick Tricks">
+                  </a>
+                </div>
+                <div class="patreon-footer-ad">
+                  <a href="https://www.ramotion.com/agency/ui-ux-design" target="_blank" rel="noopener">
+                    <img src="./Text Inputs - Materialize_files/Logo-1.png" alt="UX Agency">
+                  </a>
+                </div>
+                <div class="patreon-footer-ad">
+                  <a href="http://www.datantify.com/" target="_blank" rel="noopener">
+                    <img src="./Text Inputs - Materialize_files/datantify.png" alt="Datantify">
+                  </a>
+                </div>
+                <div class="patreon-footer-ad">
+                  <a href="https://www.utilitysavingexpert.com/" alt="Compare Energy" target="_blank" rel="noopener">
+                    <img src="./Text Inputs - Materialize_files/Logo-1200x630.png" alt="Compare car insurance at Utility Saving Expert">
+                  </a>
+                </div>
+                <div class="patreon-footer-ad">
+                  <a href="https://runningseo.com/" target="_blank" rel="noopener">
+                    <img src="./Text Inputs - Materialize_files/56766135-running-SEO-logo-01.png" alt="SEO Companies and Optimization Tips from Experts">
+                  </a>
+                </div>
+                <div class="patreon-footer-ad">
+                  <a href="https://www.dontpayfull.com/" target="_blank" rel="noopener">
+                    <img src="./Text Inputs - Materialize_files/Banner_120x60-white.png" alt="Dont Pay Full">
+                  </a>
+                </div>
+                <div class="patreon-footer-ad">
+                  <a href="https://gaggle.email/" target="_blank" rel="noopener">
+                    <img src="./Text Inputs - Materialize_files/gaggle-mail-logo.png" alt="Gaggle Mail">
+                  </a>
+                </div>
+                <div class="patreon-footer-ad">
+                  <a href="https://clay.global/" target="_blank" rel="noopener">
+                    <img src="./Text Inputs - Materialize_files/clay-logo-transp.png" alt="UI UX Design Agency">
+                  </a>
+                </div>
+                <div class="patreon-footer-ad">
+                  <a href="https://www.codefirst.co.uk/" target="_blank" rel="noopener">
+                    <img src="./Text Inputs - Materialize_files/image001.png" alt="CodeFirst">
+                  </a>
+                </div>
+                <div class="patreon-footer-ad">
+                  <a href="https://www.stillio.com/" target="_blank" rel="noopener">
+                    <img src="./Text Inputs - Materialize_files/stillio-as-logo-1000-green.png" title="Capture and archive website screenshots automatically with Stillio" alt="Capture and archive website screenshots automatically with Stillio">
+                  </a>
+                </div>
+                <div class="patreon-footer-ad">
+                  <a href="https://blokt.com/" target="_blank" rel="noopener">
+                    <img src="./Text Inputs - Materialize_files/blokt-logo-no-tagline-light-bg-1200x250px1.png" alt="Blokt Cryptocurrency News">
+                  </a>
+                </div>
+                <div class="patreon-footer-ad">
+                  <a href="https://www.hosted.nl/vps/" target="_blank" rel="noopener">
+                    <img src="./Text Inputs - Materialize_files/hostednl.png" alt="Hosted NL">
+                  </a>
+                </div>
+                <div class="patreon-footer-ad">
+                  <a href="https://www.valuemarke.com/" alt="Value Marketing" target="_blank" rel="noopener">
+                    <img src="./Text Inputs - Materialize_files/Ikon-Oransje-RGB.png" alt="Value Marketing">
+                  </a>
+                </div>
+                <div class="patreon-footer-ad">
+                  <a href="https://keymedium.com/" target="_blank" rel="noopener">
+                    <img src="./Text Inputs - Materialize_files/2017-10-23-logo-refresh.png" alt="Philadelphia Web Design &amp; SEO Agency">
+                  </a>
+                </div>
+                <div class="patreon-footer-ad">
+                  <a href="https://cryptoefx.com/" target="_blank" rel="noopener">
+                    <img src="./Text Inputs - Materialize_files/crypto-_EFX.png" alt="crypto EFX">
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-copyright">
+              © 2014-<noscript>2018</noscript><script type="text/javascript">document.write(new Date().getFullYear());</script>2021 Materialize, All rights reserved.
+              <a class="grey-text text-darken-1 right" href="https://github.com/Dogfalo/materialize/blob/master/LICENSE">MIT License</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--  Scripts-->
+    <script src="./Text Inputs - Materialize_files/jquery-3.2.1.min.js.descarga"></script>
+    <script>if (!window.jQuery) { document.write('<script src="bin/jquery-3.2.1.min.js"><\/script>'); }
+    </script>
+    <script src="./Text Inputs - Materialize_files/jquery.timeago.min.js.descarga"></script>
+    <script src="./Text Inputs - Materialize_files/prism.js.descarga"></script>
+    <script src="./Text Inputs - Materialize_files/lunr.min.js.descarga"></script>
+    <script src="./Text Inputs - Materialize_files/search.js.descarga"></script>
+    <script src="./Text Inputs - Materialize_files/materialize.js.descarga"></script>
+    <script src="./Text Inputs - Materialize_files/init.js.descarga"></script>
+    <!-- Twitter Button -->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+    <!--  Google Analytics  -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-56218128-1', 'auto');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+    </script>
+
+  
+<div class="hiddendiv common" style="font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; line-height: normal; padding: 12px 0px; width: 589.406px;"><br></div><div class="sidenav-overlay" style="display: none;"></div><div class="drag-target"></div><iframe scrolling="no" frameborder="0" allowtransparency="true" src="./Text Inputs - Materialize_files/widget_iframe.06c6ee58c3810956b7509218508c7b56.html" title="Twitter settings iframe" style="display: none;"></iframe><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe" src="./Text Inputs - Materialize_files/saved_resource.html"></iframe></body></html>
