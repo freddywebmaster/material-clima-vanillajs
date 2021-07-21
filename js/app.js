@@ -39,26 +39,27 @@ const mostrarError = (mensaje) => {
   }
 };
 
-const consultarApi = async (ciudad, pais) => {
+const consultarApi = (ciudad, pais) => {
   const appId = "336b10f19f846866eefadb1084643f49";
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&appid=${appId}`;
   Spinner();
-  const respuesta = await fetch(url);
-  const resultado = await respuesta.json();
-  console.log(resultado);
-  if (resultado.cod === "404") {
-    mostrarError("Ciudad No encontrada");
-  } else {
-    mostrarClima(resultado);
-  }
-  limpiarHTML(); //LIMPIAR HTML
+  fetch(url)
+    .then((respuesta) => respuesta.json())
+    .then((datos) => {
+      limpiarHTML(); //LIMPIAR HTML
+      if (datos.cod === "404") {
+        mostrarError("Ciudad No encontrada");
+      } else {
+        mostrarClima(datos);
+      }
+    });
 };
 
-const mostrarClima = async (datos) => {
+const mostrarClima = (datos) => {
   const {
     name,
     main: { temp, temp_max, temp_min },
-  } = await datos;
+  } = datos;
 
   //la temperatura viene en kelvins xd
   const centigrados = kelvinToCentigrados(temp);
